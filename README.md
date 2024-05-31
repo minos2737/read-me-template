@@ -1,86 +1,59 @@
-# Read Me Template
+# Read Me
 
 ![Project Image](project-image-url)
 
-> This is a ReadMe template to help save you time and effort.
+> Ce README a pour but de permettre à toutes les personnes travaillant sur le site web de comprendre le fonctionnement de GitHub et de l'utiliser afin de faciliter la création du site web.
 
----
-
-### Table of Contents
-You're sections headers will be used to reference location of destination.
+### Table des matières
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
 - [Author Info](#author-info)
 
 ---
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
-
-#### Technologies
-
-- Technology 1
-- Technology 2
-
-[Back To The Top](#read-me-template)
+Un repository (ou dépôt) sur GitHub est un espace de stockage en ligne pour vos projets de code. Il contient tous les fichiers de projet ainsi que l'historique de leurs modifications. Vous pouvez collaborer avec d'autres développeurs, suivre les versions, et gérer le code source. 
 
 ---
 
 ## How To Use
 
 #### Installation
+- Installez Git sur leur [site web](https://www.git-scm.com/downloads)
 
-
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
+Ouvrez votre terminal et configurez votre nom et email avec les commandes :
 ```
-[Back To The Top](#read-me-template)
+    git config --global user.name "Votre Nom"   
+```
+puis
+
+```
+    git config --global user.email "votre.email@example.com"
+```
+
+### Cloner le repository
+---
+- Utilisez la commande :
+  
+```
+    git clone https://github.com/minos2737/Site-web-bde.git
+```
+Tu as normalement tout les fichier du repository sur ton ordi
 
 ---
 
-## References
-[Back To The Top](#read-me-template)
+#### Commande Utile
 
----
-
-## License
-
-MIT License
-
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[Back To The Top](#read-me-template)
-
----
+```
+    git add .           # Ajoute tous les fichiers modifiés à l'index
+    git commit -m "Message"  # Enregistre les changements avec un message de commit
+    git push origin main  # Envoie les changements vers GitHub
+```
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Instagram - [@simon_bl5](https://www.instagram.com/simon_bl5/)
 
-[Back To The Top](#read-me-template)
+
